@@ -1,0 +1,59 @@
+FRONT
+frontのプロジェクト内(/usr/src/frontend)で実行
+npm install --save @fortawesome/fontawesome-svg-core
+npm install --save @fortawesome/free-solid-svg-icons
+npm install --save @fortawesome/vue-fontawesome
+npm install --save @fortawesome/free-brands-svg-icons
+npm install --save @fortawesome/free-regular-svg-icons
+npm install --save vue-session
+6/15
+npm install --save vue-axios
+npm install --save vue-cookies
+npm i mavon-editor@3.0.0-beta←無し
+6/25
+npm install moment
+7/8
+npm install --save vue3-simple-typeahead
+※front/mysite/frontend/node_modules/vue3-simple-typeahead/dist/vue3-simple-typeahead.esm.js
+の中の142行目
+selectItem(item) {
+      this.input = this.itemProjection(item);
+      this.currentSelectionIndex = 0;
+      this.$refs.inputRef.blur();
+      this.input = "";←これを追加して下さい
+      this.$emit('selectItem', item);
+    },
+多分保存できないと思うのでcd front/mysite/frontend/　して sudo chown ユーザー名 ./node_modules/vue3-simple-typeahead/dist/vue3-simple-typeahead.esm.js
+してください
+
+7/11
+npm uninstall mavon-editor@3.0.0-beta
+npm install mavon-editor@next --save
+npm install vuex
+10/17
+npm install vue3-google-login
+npm install file-saver
+11/09
+npm install monaco-editor
+npm install monaco-editor-webpack-plugin
+11/16
+npm install terser-webpack-plugin
+npm install vue-star-rating@next
+11/17
+npm install vue-chartjs
+npm install chart.js
+1/11
+npm i moment
+
+
+BACK
+pip install djoser
+6/20
+pip install django_cleanup
+10/17
+pip install python-decouple
+pip install django-allauth
+pip install drf_social_oauth2
+pip install psutil
+pip install docker
+

@@ -1,0 +1,30 @@
+ (仮test用)
+http://localhost:8000/api/v1/login/
+ (アイコン)
+http://localhost:8000/api/v1/Icon/
+(登録)
+http://localhost:8000/api/v1/register/
+(jwt認証)
+http://localhost:8000/api/v1/auth/jwt/create
+(管理画面)
+http://localhost:8000/api/v1/admin
+(id取り出し)
+http://localhost:8000/api/v1/auth/users/me/
+(パスワードチェンジ)
+http://localhost:8000/api/v1/change_password/
+
+current_password,new_password,confirm_passwordです
+
+(portforio)(仮)
+http://localhost:8000/api/v1/portfolio/post/
+(serch動くはず)
+http://localhost:8000/api/v1/portfolio/search/?keyword=
+(コメント機能 targetの後ろは記事idを入力することで記事に紐づけされたコメントと返信が取り出せる)
+http://localhost:8000/api/v1/portfolio/comment/?target=
+(返信機能 id=の後ろはコメントのidを入力することでコメントと返信が紐づけされる)
+http://localhost:8000/api/v1/portfolio/reply/?id=
+(ユーザーの記事(トークンがいります))
+http://localhost:8000/api/v1/portfolio/userindex/
+
+http://localhost:8000/api/v1/portfolio/like_list/?id=
+

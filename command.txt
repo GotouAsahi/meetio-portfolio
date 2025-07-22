@@ -1,0 +1,20 @@
+開発環境のビルド＋起動（起動だけなら--buildを抜く）
+docker-compose -f docker-compose.yml up -d --build
+本番環境のビルド＋起動
+docker-compose -f docker-compose-prod.yml up --build
+コンテナ移動　
+docker-compose exec back bash　djangoコンテナに入る
+抜ける exit
+docker-compose exec front sh　vue.jsコンテナに入る
+django立ち上げ
+python manage.py runserver 0.0.0.0:8000
+http://localhost:8000/api/v1/
+vscode保存できないエラー
+sudo chown -R $USER:$USER .
+vue.js立ち上げ
+yarn serve　か　npm run serve
+http://localhost:8080/
+
+python manage.py migrate
+python manage.py createsuperuser
+python manage.py collectstatic

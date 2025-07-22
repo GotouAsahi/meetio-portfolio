@@ -1,0 +1,58 @@
+/*!
+  * vue-router v4.2.2
+  * (c) 2023 Eduardo San Martin Morote
+  * @license MIT
+  */
+
+/*!
+ * @kurkle/color v0.3.2
+ * https://github.com/kurkle/color#readme
+ * (c) 2023 Jukka Kurkela
+ * Released under the MIT License
+ */
+
+/*!
+ * Chart.js v4.4.0
+ * https://www.chartjs.org
+ * (c) 2023 Chart.js Contributors
+ * Released under the MIT License
+ */
+
+/*!
+ * vuex v4.1.0
+ * (c) 2022 Evan You
+ * @license MIT
+ */
+
+/*! @license DOMPurify 3.0.5 | (c) Cure53 and other contributors | Released under the Apache license 2.0 and Mozilla Public License 2.0 | github.com/cure53/DOMPurify/blob/3.0.5/LICENSE */
+
+/*! https://mths.be/punycode v1.4.1 by @mathias */
+
+/*!-----------------------------------------------------------------------------
+ * Copyright (c) Microsoft Corporation. All rights reserved.
+ * Version: 0.44.0(3e047efd345ff102c8c61b5398fb30845aaac166)
+ * Released under the MIT license
+ * https://github.com/microsoft/monaco-editor/blob/main/LICENSE.txt
+ *-----------------------------------------------------------------------------*/
+
+/**
+     * @Author: HuaChao Chen <chc>
+     * @Date:   2017-06-12T21:06:58+08:00
+     * @Email:  chenhuachaoxyz@gmail.com
+     * @Filename: index.js
+     * @Last modified by:   chc
+     * @Last modified time: 2017-06-12T21:18:15+08:00
+     * @License: MIT
+     * @Copyright: 2017
+     */
+
+/**
+     * @Author: chenhuachao <chc>
+     * @Date:   2017-11-26T15:57:48+08:00
+     * @Email:  chenhuachaoxyz@gmail.com
+     * @Filename: index.js
+     * @Last modified by:   chc
+     * @Last modified time: 2017-11-26T16:00:49+08:00
+     * @License: MIT
+     * @Copyright: 2017
+     */

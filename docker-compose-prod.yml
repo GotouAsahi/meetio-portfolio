@@ -1,0 +1,31 @@
+version: "3.8"
+
+services:
+  back:
+    build:
+      context: ./back
+      dockerfile: Dockerfileprod
+    volumes:
+      - "./back:/usr/src"
+      - /var/run/docker.sock:/var/run/docker.sock
+      - ./docker-compose-files:/docker-compose-files
+    ports:
+      - "8000:8000"
+    tty: true
+    stdin_open: true
+    privileged: true
+    environment:
+      - DJANGO_SETTINGS_MODULE=backend.settings
+      - NODE_ENV=production
+    command: bash -c "python manage.py migrate && gunicorn --workers 5 -k gthread --threads 2 --bind 0.0.0.0:8000 backend.wsgi:application"
+
+  nginx:
+    build:
+      context: ./nginx
+      dockerfile: Dockerfile
+    volumes:
+    - ./back/static:/static
+    depends_on:
+      - back
+    ports:
+      - "80:80"
